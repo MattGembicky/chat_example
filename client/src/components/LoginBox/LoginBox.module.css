@@ -1,0 +1,81 @@
+.Box {
+  width: 400px;
+  height: 400px;
+  top: 5em;
+  position: relative;
+  background-color: var(--white);
+  border-radius: 16px;
+  position: relative;
+  transition: 0.3s;
+  display: inline-block;
+  margin: 1em;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.Box:hover {
+  width: 420px;
+  height: 420px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Input {
+  width: 85%;
+  min-width: 120px;
+  height: 3vh;
+  min-height: 30px;
+  margin-top: 1vh;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 2px solid var(--grey);
+  font-size: 1em;
+  transition: 0.1s;
+  text-align: center;
+  color: var(--black);
+}
+
+.Input:hover {
+  border-color: var(--black);
+  letter-spacing: 0.1em;
+  width: 90%;
+  height: 3vh;
+}
+
+.Submit {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 3em;
+  border: 5px hidden #000000;
+  background: none;
+  color: var(--black);
+  border: 3px solid var(--black);
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+  border-radius: 8px;
+  font-size: 1.5em;
+  transition: 0.2s;
+  margin-bottom: 10px;
+  display: table;
+}
+
+.Submit:hover {
+  width: 120px;
+  height: 50px;
+  font-size: 1.6em;
+  text-shadow: 2px 2px 5px var(--shadow);
+  border-radius: 12px;
+}
+
+.ErrorText {
+  font-size: 1.1em;
+  color: var(--error);
+}
